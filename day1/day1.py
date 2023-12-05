@@ -1,5 +1,5 @@
 
-def main():    
+def task1():    
     with open('./day1/data.txt', encoding="utf-8") as f:
         data = f.read().splitlines()
         total = 0
@@ -29,7 +29,7 @@ def findWordOrDigits(input:str):
     return int(digits[0]+digits[-1])
 
         
-def parseStringsAsNumbers():
+def task2():
     with open('./day1/data.txt', encoding="utf-8") as f:
         data = f.read().splitlines()
         total = 0
